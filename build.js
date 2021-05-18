@@ -217,7 +217,7 @@ module.exports = getDataElementValues => ({
           return new Promise(function (resolve) {
             setTimeout(function () {
               resolve('precious');
-            }, 1444);
+            }, 1);
           });
         }
       }))
