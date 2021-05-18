@@ -216,7 +216,7 @@ module.exports = getDataElementValues => ({
         source: function (arc, utils) {
           return new Promise(function (resolve) {
             setTimeout(function () {
-              resolve('precious');
+              resolve('precious_new');
             }, 1);
           });
         }
